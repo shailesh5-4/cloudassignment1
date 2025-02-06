@@ -31,7 +31,8 @@ This part modifies an Nginx container to serve a custom webpage at `http://local
    [htttp://localhost/ELL887](http://localhost/ELL887)
 
    OUTPUT: "Hello world! I am Shailesh Mishra".
-![image](https://github.com/user-attachments/assets/3e8629d2-aacb-4ee6-bbd7-fa8ecfc6ca1e)
+![part_a](https://github.com/user-attachments/assets/b518f589-f329-4f73-944c-8315bbe62d3e)
+
 
    
 ## Part 2: Creating and Pushing a Container
@@ -73,13 +74,16 @@ B. **Start the Database using Docker Compose**
 
 3. **Repositories pull command**
    ```sh
-    docker pull saurabhbalke/ell887:app 
-    docker pull saurabhbalke/ell887:db 
+    docker pull shaileshmishra103/ell887:app 
+    docker pull shaileshmishra103/ell887:db 
 
 
 For connecting the cpp and MySQL, I have used the left side docker-compose file and submitted the (right side image_ docker-compose file in which I have updated the image as docker repositories.
 
-![Screenshot from 2025-02-06 15-57-27](https://github.com/user-attachments/assets/5c7db5b3-7915-4a3f-8897-d11ec134f13d) ![image](https://github.com/user-attachments/assets/90c16f5b-500a-40f5-b094-d8163e1bddfd)
+![partb2](https://github.com/user-attachments/assets/b8401e47-27e9-4a12-a7e1-f2181b399eb4)![partb3](https://github.com/user-attachments/assets/de063212-b5b7-4cd9-8278-59d1d1a29fac)
+
+
+
 
 4. **To verify the output**
    ```sh
@@ -108,7 +112,7 @@ Deploy a web server in a Kubernetes cluster using Minikube. web server runs on p
    ```sh
    minikube service webserver-service
 
-![image](https://github.com/user-attachments/assets/0d000183-f0dd-4119-ab95-52a033d69e52)
+
 
 4. **Access the web server using:**
    ```sh
@@ -116,4 +120,5 @@ Deploy a web server in a Kubernetes cluster using Minikube. web server runs on p
 
    OUTPUT: nginx web page.
 
-![Screenshot from 2025-02-06 15-19-53](https://github.com/user-attachments/assets/bea9ae8d-4378-4470-9f66-b8bd9f9c62e4)
+![partc](https://github.com/user-attachments/assets/980795ce-dc54-41b4-a833-731775658e3c)
+
