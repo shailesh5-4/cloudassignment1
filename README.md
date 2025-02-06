@@ -81,7 +81,8 @@ B. **Start the Database using Docker Compose**
 
 For connecting the cpp and MySQL, I have used the left side docker-compose file and submitted the (right side image_ docker-compose file in which I have updated the image as docker repositories.
 
-![partb2](https://github.com/user-attachments/assets/b8401e47-27e9-4a12-a7e1-f2181b399eb4)![Screenshot (447)](https://github.com/user-attachments/assets/d9f44ad6-e890-4d6e-b16d-a85148b75503)
+![partb2](https://github.com/user-attachments/assets/b8401e47-27e9-4a12-a7e1-f2181b399eb4)![Screenshot (448)](https://github.com/user-attachments/assets/331a11ad-b1e1-45f0-8ca6-599e280eab6f)
+
 
 
 
