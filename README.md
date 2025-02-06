@@ -58,7 +58,8 @@ A. **Run the c++ program container**
 3. **Verify the output:**
    ```sh
    OUTPUT: "Hello world!! I am Shailesh Mishra ".
-![image](https://github.com/user-attachments/assets/78a262bb-2b73-4c29-8026-48ef21981227)
+![partb1](https://github.com/user-attachments/assets/48b4c5e7-af2e-4cab-88a1-3ee43eefb50c)
+
 
 
 B. **Start the Database using Docker Compose**
