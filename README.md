@@ -43,7 +43,7 @@ This part containerizes a C++ program that prints "Hello world!! I am Shailesh M
 ### Files Provided:
 - `Dockerfile` (to create a custom Nginx container)
 - `docker-compose.yaml` (to include a MySQL database)
-- `index.html` (to display the required message)
+- `app.cpp` (to display the required message)
 
 ### Steps to Run:
 A. **Run the c++ program container**
@@ -57,7 +57,7 @@ A. **Run the c++ program container**
 
 3. **Verify the output:**
    ```sh
-   OUTPUT: "Hello world!! I am Shailesh Mishra ".
+   OUTPUT: "Hello world, I am Shailesh".
 ![partb1](https://github.com/user-attachments/assets/48b4c5e7-af2e-4cab-88a1-3ee43eefb50c)
 
 
