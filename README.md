@@ -19,11 +19,11 @@ This part modifies an Nginx container to serve a custom webpage at `http://local
 ### Steps to Run:
 1. **Build the container:**
    ```sh
-   docker build -t modified-nginx .
+   docker build -t part1-nginx .
 
 2. **Run the container:**
    ```sh
-   docker run -d -p 80:80 modified-nginx
+   docker run -d -p 80:80 part1-nginx
 
 
 3. **Verify the output:**
@@ -115,6 +115,7 @@ Deploy a web server in a Kubernetes cluster using Minikube. web server runs on p
 3. **check the service pods using (wait until webserver pod is in running state the use below cmd):**
    ```sh
    minikube service webserver-service
+![part3_terminal](https://github.com/user-attachments/assets/ac6f53c5-d41a-48fd-8933-71568ea88821)
 
 
 
