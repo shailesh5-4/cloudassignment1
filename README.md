@@ -48,15 +48,15 @@ This part containerizes a C++ program that prints "Hello world!! I am Shailesh M
 A. **Run the c++ program container**
 1. **Build the C++ container:**
    ```sh
-   docker build -t part_2 .
+   docker build -t myapp .
 
 2. **Run the container:**
    ```sh
-   docker run part_2
+   docker run myapp
 
 3. **Verify the output:**
    ```sh
-   OUTPUT: "Hello world!! I am saurabh singh balke (2024EET2397)".
+   OUTPUT: "Hello world!! I am Shailesh Mishra ".
 ![image](https://github.com/user-attachments/assets/78a262bb-2b73-4c29-8026-48ef21981227)
 
 
