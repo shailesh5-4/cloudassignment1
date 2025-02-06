@@ -24,7 +24,7 @@ This part modifies an Nginx container to serve a custom webpage at `http://local
 2. **Run the container:**
    ```sh
    docker run -d -p 80:80 modified-nginx
-![image](https://github.com/user-attachments/assets/2e82ec8c-a797-46e3-aea0-8ceee8623b7d)
+
 
 3. **Verify the output:**
    ```sh
@@ -38,7 +38,7 @@ This part modifies an Nginx container to serve a custom webpage at `http://local
 ## Part 2: Creating and Pushing a Container
 
 ### Objective
-This part containerizes a C++ program that prints "Hello world!! I am Shailesh Mishra (2024EET2354)" and includes a MySQL database.
+This part containerizes a C++ program that prints "Hello world!! I am Shailesh Mishra " and includes a MySQL database.
 
 ### Files Provided:
 - `Dockerfile` (to create a custom Nginx container)
@@ -70,11 +70,11 @@ B. **Start the Database using Docker Compose**
 2. **Use different terminal to use MySql**
    ```sh
      docker exec -it mysql-db mysql -u root -p
-     #password: admin@1
+     #password: shailesh
 
 3. **Repositories pull command**
    ```sh
-    docker pull shaileshmishra103/ell887:app 
+    docker pull shaileshmishra103/ell887:myapp 
     docker pull shaileshmishra103/ell887:db 
 
 
@@ -88,7 +88,7 @@ For connecting the cpp and MySQL, I have used the left side docker-compose file 
 4. **To verify the output**
    ```sh
    docker compose up
-![image](https://github.com/user-attachments/assets/a889b770-84ab-4d42-a5c7-4f03477a0eb2)
+
 
 
 ## Part 3: Modifying an Existing Web Server Container
